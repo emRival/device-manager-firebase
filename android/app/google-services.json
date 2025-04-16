@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "53074370433",
+    "project_id": "idnphonerent",
+    "storage_bucket": "idnphonerent.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53074370433:android:c247a1d4522fff1efb5280",
+        "android_client_info": {
+          "package_name": "com.example.device_manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53074370433-bs6vr8n1aqbt9amr0jnh251ps4pr93fs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.device_manager",
+            "certificate_hash": "005141869b11c8e8eae961877311a9ac48d1f886"
+          }
+        },
+        {
+          "client_id": "53074370433-cm6jo6ok59nkfemjal5f12j3po7kots1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8o84MD2e5xyYH_kDWP7Xe0n_NVwcB-GY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53074370433-cm6jo6ok59nkfemjal5f12j3po7kots1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "53074370433-eidirj6llu6dvke3406edpkiql97kp6f.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.deviceManager"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
