@@ -1,99 +1,57 @@
-# 📱 Device Manager
+# Firebase Device Manager 📱
 
-A modern Flutter application for managing device rentals in educational institutions. This app helps administrators efficiently track device usage, manage rentals, and monitor returns.
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&style=for-the-badge&logoColor=white)](https://dart.dev)  [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&style=for-the-badge&logoColor=white)](https://flutter.dev)  [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&style=for-the-badge&logoColor=black)](https://firebase.google.com/)
 
-## ✨ Features
+Aplikasi Firebase Device Manager adalah proyek yang bertujuan untuk menyediakan cara yang efisien dan terpusat untuk mengelola perangkat yang terhubung ke Firebase. Meskipun deskripsi awal minim, proyek ini dirancang dengan mempertimbangkan skalabilitas dan kemudahan penggunaan, memanfaatkan kekuatan Dart dan Flutter untuk antarmuka pengguna yang responsif dan Firebase untuk backend yang tangguh.
 
-- **QR Code Scanning**: Quick and easy device check-in/check-out using QR codes
-- **Real-time Tracking**: Monitor device status (renting, late, returned) in real-time
-- **Student Management**: Keep track of student information and device assignments
-- **History Logs**: Comprehensive history of all device rentals and returns
-- **Late Return Alerts**: Automatic notifications for late device returns
-- **Modern UI**: Clean and intuitive user interface with Material Design 3
+**Fitur Utama ✨**
 
-## 🚀 Getting Started
+*   **Manajemen Perangkat Terpusat:** Pantau dan kelola semua perangkat Firebase Anda dari satu tempat.
+*   **Integrasi Firebase Realtime Database:** Sinkronisasi data secara real-time untuk visibilitas perangkat yang selalu terbaru.
+*   **Antarmuka Pengguna Intuitif:** Dirancang dengan Flutter untuk pengalaman pengguna yang mulus dan intuitif di berbagai platform.
+*   **Skalabilitas:** Arsitektur yang dirancang untuk menangani sejumlah besar perangkat dan data.
 
-### Prerequisites
+**Tech Stack 🛠️**
 
-- Flutter SDK (latest version)
-- Dart SDK (latest version)
-- Firebase account
-- Android Studio / VS Code with Flutter extensions
+*   Dart - Bahasa pemrograman utama.
+*   Flutter - Framework UI untuk membangun aplikasi lintas platform.
+*   Firebase - Platform pengembangan aplikasi (Realtime Database, Authentication, dll.).
+*   Gradle - Sistem build untuk Android.
 
-### Installation
+**Instalasi & Menjalankan 🚀**
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/device_manager.git
-```
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/emRival/device-manager-firebase
+   ```
 
-2. Install dependencies:
-```bash
-cd device_manager
-flutter pub get
-```
+2. Masuk ke direktori:
+   ```bash
+   cd device-manager-firebase
+   ```
 
-3. Configure Firebase:
-   - Create a new Firebase project
-   - Add Android and iOS apps to your Firebase project
-   - Download and add the configuration files:
-     - `google-services.json` for Android
-     - `GoogleService-Info.plist` for iOS
+3. Install dependensi:
+   ```bash
+   flutter pub get
+   ```
 
-4. Run the app:
-```bash
-flutter run
-```
+4. Jalankan proyek:
+   ```bash
+   flutter run
+   ```
 
-## 🔧 Configuration
+**Cara Berkontribusi 🤝**
 
-### Firebase Setup
+1.  Fork repositori ini.
+2.  Buat branch dengan nama fitur Anda: `git checkout -b feature/fitur-baru`
+3.  Lakukan commit perubahan Anda: `git commit -m 'Menambahkan fitur baru'`
+4.  Push ke branch: `git push origin feature/fitur-baru`
+5.  Buat Pull Request.
 
-1. Enable Authentication:
-   - Google Sign-In
-   - Email/Password authentication
+**Lisensi 📄**
 
-2. Set up Firestore:
-   - Create collections:
-     - `students`
-     - `history`
-   - Set up security rules
+Tidak disebutkan.
 
-### Environment Variables
+---
 
-Create a `.env` file in the root directory:
-```env
-FIREBASE_API_KEY=your_api_key
-FIREBASE_AUTH_DOMAIN=your_auth_domain
-FIREBASE_PROJECT_ID=your_project_id
-```
-
-## 📱 Screenshots
-
-[Add screenshots of your app here]
-
-## 🛠️ Built With
-
-- [Flutter](https://flutter.dev/) - UI toolkit
-- [Firebase](https://firebase.google.com/) - Backend services
-- [QR Code Scanner Plus](https://pub.dev/packages/qr_code_scanner_plus) - QR code scanning
-- [Google Fonts](https://pub.dev/packages/google_fonts) - Typography
-- [Intl](https://pub.dev/packages/intl) - Internationalization
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Flutter team for the amazing framework
-- Firebase team for the robust backend services
-- All contributors and maintainers
-
-## 📞 Support
-
-For support, email support@devicemanager.com or open an issue in the repository.
+*Dibuat dengan ❤️ oleh [emRival](https://github.com/emRival)*
